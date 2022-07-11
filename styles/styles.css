@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lobster Two", cursive;
+    margin: 0px;
+}
+
+.post {
+    max-width: 400px;
+    height: auto;
+    margin: 10px;
+    border: 2px dashed #d9027d;
+    padding: 15px;
+}
+
+.post-picture {
+    border: 2px dashed #00ffff;
+}
+
+.post-title {
+    margin: 15px 0px 15px;
+    border: 2px dashed #000;
+}
+
+.post-text {
+    text-indent: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border: 2px dashed #ff2400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
